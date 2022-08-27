@@ -44,7 +44,8 @@ def execute(args):
     logging.warning(f'target: {args.target}')
     logging.error(f'log level: {args.log_level}')
 
-    print("Foo executed - complex logic")
+    logging.warning("Try not to use `print()` use logging.")
+    logging.warning("Foo executed - complex logic")
 
 
 def main():
